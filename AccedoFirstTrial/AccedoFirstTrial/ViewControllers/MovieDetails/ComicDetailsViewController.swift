@@ -8,8 +8,14 @@
 
 import UIKit
 
-class MovieDetailsViewController: UIViewController {
+class ComicDetailsViewController: UIViewController {
 
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var comicTitle: UILabel!
+    @IBOutlet weak var comicImageView: UIImageView!
+    @IBOutlet weak var comicDescription: UILabel!
+    @IBOutlet weak var relatedComicsCollectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
